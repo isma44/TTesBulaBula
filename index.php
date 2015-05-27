@@ -1,8 +1,6 @@
 <?php
 ini_set( 'display_errors', 0 );     // NOTICE!!! display_errors 1 occurr "Warnings" ==> this will be broken JSON syntax.
 
-// TEST URL : http://biotech.freevar.com
-
 require_once "config.php";
 require_once "functions.php";
 

@@ -6,13 +6,13 @@ if ( !defined('PATH_HTTPROOT') ) {
 }
 
 if ( !defined('PATH_OUTROOT') ) {
-    // define( 'PATH_OUTROOT', PATH_HTTPROOT."/imgout" );  
-    define( 'PATH_OUTROOT', "imgout" );          
+    define( 'PATH_OUTROOT', PATH_HTTPROOT."/imgout" );  
+    // define( 'PATH_OUTROOT', "imgout" );          
 }
 
 if ( !defined('PATH_INROOT') ) {
-    // define( 'PATH_INROOT', PATH_HTTPROOT."/imgin" );     
-    define( 'PATH_INROOT', "imgin" );
+    define( 'PATH_INROOT', PATH_HTTPROOT."/imgin" );     
+    // define( 'PATH_INROOT', "imgin" );
 }
 
 date_default_timezone_set('Asia/Tokyo');
