@@ -16,5 +16,6 @@ if ( !defined('PATH_INROOT') ) {
 
 date_default_timezone_set('Asia/Tokyo');
 
+// NOTICE : from pal
 
 ?>
