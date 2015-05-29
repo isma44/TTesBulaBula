@@ -1,5 +1,7 @@
 <?php   
 
+// TESTING CONFIG
+
 if ( !defined('PATH_HTTPROOT') ) {
     define( 'PATH_HTTPROOT', $_SERVER['DOCUMENT_ROOT'] );
 }
